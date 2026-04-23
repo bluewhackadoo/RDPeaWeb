@@ -26,7 +26,7 @@ function Header({ onNav }) {
       }}>
         <a href="#top" onClick={(e) => { e.preventDefault(); onNav('top'); }}
            style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-          <img src="./assets/logo.svg" alt="" style={{ width: 34, height: 34 }} />
+          <img src="./assets/icon.png" alt="" style={{ width: 34, height: 34 }} />
           <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 19, letterSpacing: '-.02em' }}>
             <span style={{ color: 'var(--surface-200)' }}>RD</span>
             <span style={{ color: 'var(--pea-400)', fontStyle: 'italic' }}>Pea</span>

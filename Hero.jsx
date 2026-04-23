@@ -43,14 +43,14 @@ function Hero({ onDownload }) {
           lineHeight: 1.02, letterSpacing: '-.028em', textWrap: 'balance',
           maxWidth: 920,
         }}>
-          A remote desktop client that <span style={{ color: 'var(--pea-400)', fontStyle: 'italic' }}>feels like a tool</span>, not a Windows dialog.
+          A remote desktop client that <span style={{ color: 'var(--pea-400)', fontStyle: 'italic' }}>feels right.</span>
         </h1>
 
         <p style={{
           maxWidth: 640, fontSize: 19, lineHeight: 1.55,
           color: 'var(--fg-2)', margin: 0,
         }}>
-          RDPea is an open‑source RDP client — AES‑256‑GCM credentials, pinnable session windows, a pure‑TypeScript protocol stack, and a dashboard that doesn't feel like it was written in 2003.
+          RDPea is an open‑source Remote Desktop client — AES‑256‑GCM credentials, pinnable session windows, a redesigned protocol stack, and a dashboard that doesn't feel like it was written in 2003.
         </p>
 
         {/* CTA row */}
@@ -110,7 +110,7 @@ function Hero({ onDownload }) {
                 <span style={{ width: 11, height: 11, borderRadius: 9999, background: '#f59e0b' }} />
                 <span style={{ width: 11, height: 11, borderRadius: 9999, background: '#10b981' }} />
               </div>
-              <img src="./assets/logo.svg" style={{ width: 18, height: 18, marginLeft: 6 }} />
+              <img src="./assets/icon.png" style={{ width: 18, height: 18, marginLeft: 6 }} />
               <div style={{ fontSize: 12.5, color: 'var(--fg-3)' }}>
                 <span style={{ color: 'var(--surface-200)', fontWeight: 600 }}>RDPea</span>
                 <span style={{ color: 'var(--fg-4)', margin: '0 8px' }}>│</span>

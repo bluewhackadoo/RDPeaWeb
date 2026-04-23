@@ -62,7 +62,7 @@ function Footer() {
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '56px 24px 32px', display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr 1fr', gap: 40 }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
-            <img src="./assets/logo.svg" alt="" style={{ width: 32, height: 32 }} />
+            <img src="./assets/icon.png" alt="" style={{ width: 32, height: 32 }} />
             <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 18, letterSpacing: '-.02em' }}>
               <span style={{ color: 'var(--surface-200)' }}>RD</span>
               <span style={{ color: 'var(--pea-400)', fontStyle: 'italic' }}>Pea</span>

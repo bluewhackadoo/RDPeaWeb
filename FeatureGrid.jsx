@@ -49,7 +49,7 @@ function FeatureGrid() {
         fontSize: 'clamp(2rem, 3vw + 1rem, 3.25rem)',
         lineHeight: 1.08, letterSpacing: '-.022em', maxWidth: 780,
       }}>
-        Built lightweight, fast, and consistent cross‑platform.
+        Lightweight, fast, and consistent. Cross‑plat.
       </h2>
       <p style={{ fontSize: 17, color: 'var(--fg-2)', maxWidth: 640, lineHeight: 1.55, margin: '0 0 48px' }}>
         Six things RDPea does that your current client doesn't — and three it does better.
