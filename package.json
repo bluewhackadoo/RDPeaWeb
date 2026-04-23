@@ -1,0 +1,16 @@
+{
+  "name": "rdpea-web",
+  "version": "1.0.0",
+  "description": "Marketing + donations site for RDPea",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve -l 3000",
+    "start": "npx serve -l 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluewhackadoo/RDPeaWeb.git"
+  },
+  "author": "bluewhackadoo",
+  "license": "MIT"
+}

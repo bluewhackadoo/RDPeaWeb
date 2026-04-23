@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="pea" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#E6FFC8"/>
+      <stop offset="30%" stop-color="#7EC850"/>
+      <stop offset="65%" stop-color="#4A9C28"/>
+      <stop offset="100%" stop-color="#1A4A08"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BD45A"/>
+      <stop offset="100%" stop-color="#3D8C1C"/>
+    </linearGradient>
+  </defs>
+  <!-- pea body -->
+  <circle cx="64" cy="68" r="44" fill="url(#pea)"/>
+  <!-- highlight -->
+  <ellipse cx="50" cy="52" rx="14" ry="10" fill="rgba(255,255,255,.25)" transform="rotate(-20 50 52)"/>
+  <!-- leaf / stem -->
+  <path d="M64 24 C58 18, 72 10, 82 16 C78 22, 68 26, 64 24Z" fill="url(#leaf)"/>
+  <path d="M64 24 C64 30, 64 38, 64 44" stroke="#4A9C28" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
